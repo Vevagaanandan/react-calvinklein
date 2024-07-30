@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-[Arial]
+    }
+
+    .theIcons{
+        @apply text-2xl lg:text-xl mr-4 cursor-pointer;
+    }
+
+    .footer-true{
+       @apply  rounded  ;
+    }
+
+    .footer-false{
+        @apply rounded ease-out;
+    }
+}
+
+/* @layer utilities {
+    .bg-hero{
+        background-image: url('src/assets/imgone.jpg') ;
+    } 
+
+    .bg-sectionTwo{
+        background-image: url('src/assets/img-2.jpg') ;
+    }
+    
+    .bg-sectionThreeOne{
+        background-image: url('src/assets/img-3.jpg') ;
+    }
+
+    .bg-sectionThreeTwo{
+        background-image: url('src/assets/img-7.jpg') ;
+    }
+
+    .bg-navOne{
+        background-image: url('src/assets/img-7.jpg') ;
+    }
+
+    .bg-navTwo{
+        background-image: url('src/assets/img-3.jpg') ;
+    }
+
+    .bg-navThree{
+        background-image: url('src/assets/ck-img.jpg') ;
+    }
+} */
+
+.theFooter li{
+    padding-bottom: 5px;
+}
+
+.hide-mobileMenu{
+    left: -400px;
+    transition: 0.5s;
+    position: absolute;
+}
